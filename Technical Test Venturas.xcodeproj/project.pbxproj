@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1521E712273D52020005C8E5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521E711273D52020005C8E5 /* UIView+Extension.swift */; };
+		1521E717273D6ACE0005C8E5 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1521E716273D6ACE0005C8E5 /* LocalNotification.swift */; };
+		33739BE2D82F977577A6C47E /* Pods_Technical_Test_Venturas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F51C534E5E771C74AE402E /* Pods_Technical_Test_Venturas.framework */; };
+		5C2D18B4273B0FF800F6A8B9 /* GFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D18B3273B0FF800F6A8B9 /* GFunction.swift */; };
+		5C8DB5B02738207200A8F135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5AF2738207200A8F135 /* AppDelegate.swift */; };
+		5C8DB5B22738207200A8F135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5B12738207200A8F135 /* SceneDelegate.swift */; };
+		5C8DB5B72738207300A8F135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8DB5B52738207300A8F135 /* Main.storyboard */; };
+		5C8DB5B92738207900A8F135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C8DB5B82738207900A8F135 /* Assets.xcassets */; };
+		5C8DB5BC2738207900A8F135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8DB5BA2738207900A8F135 /* LaunchScreen.storyboard */; };
+		5C8DB5C82738216500A8F135 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5C72738216500A8F135 /* CreateAccount.swift */; };
+		5C8DB5CC273829B900A8F135 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5CB273829B900A8F135 /* UIButton+Extension.swift */; };
+		5C8DB5CE2738375D00A8F135 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5CD2738375D00A8F135 /* LoginController.swift */; };
+		5C8DB5D027383BD700A8F135 /* MapWithAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5CF27383BD700A8F135 /* MapWithAudioController.swift */; };
+		5C8DB5D227383C7000A8F135 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5D127383C7000A8F135 /* LocationManager.swift */; };
+		5C8DB5D42738608100A8F135 /* RecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DB5D32738608100A8F135 /* RecorderManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1521E711273D52020005C8E5 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1521E716273D6ACE0005C8E5 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		44A8B0E457F75A4689BBDF94 /* Pods-Technical Test Venturas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technical Test Venturas.debug.xcconfig"; path = "Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB4F78D30AE74366B75B68B /* Pods-Technical Test Venturas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technical Test Venturas.release.xcconfig"; path = "Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas.release.xcconfig"; sourceTree = "<group>"; };
+		5C2D18B3273B0FF800F6A8B9 /* GFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFunction.swift; sourceTree = "<group>"; };
+		5C8DB5AC2738207200A8F135 /* Technical Test venturas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technical Test venturas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8DB5AF2738207200A8F135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C8DB5B12738207200A8F135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C8DB5B62738207300A8F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C8DB5B82738207900A8F135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C8DB5BB2738207900A8F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C8DB5BD2738207900A8F135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8DB5C72738216500A8F135 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		5C8DB5CB273829B900A8F135 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		5C8DB5CD2738375D00A8F135 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5C8DB5CF27383BD700A8F135 /* MapWithAudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWithAudioController.swift; sourceTree = "<group>"; };
+		5C8DB5D127383C7000A8F135 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5C8DB5D32738608100A8F135 /* RecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderManager.swift; sourceTree = "<group>"; };
+		82F51C534E5E771C74AE402E /* Pods_Technical_Test_Venturas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Technical_Test_Venturas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C8DB5A92738207200A8F135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33739BE2D82F977577A6C47E /* Pods_Technical_Test_Venturas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA9C3B8E7033735F997E5C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82F51C534E5E771C74AE402E /* Pods_Technical_Test_Venturas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E26BEA093D8109AFCF2D641 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B0E457F75A4689BBDF94 /* Pods-Technical Test Venturas.debug.xcconfig */,
+				4BB4F78D30AE74366B75B68B /* Pods-Technical Test Venturas.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C8DB5A32738207200A8F135 = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5AE2738207200A8F135 /* Technical Test venturas */,
+				5C8DB5AD2738207200A8F135 /* Products */,
+				2E26BEA093D8109AFCF2D641 /* Pods */,
+				1BA9C3B8E7033735F997E5C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C8DB5AD2738207200A8F135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5AC2738207200A8F135 /* Technical Test venturas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C8DB5AE2738207200A8F135 /* Technical Test venturas */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5CA273829A800A8F135 /* Base */,
+				5C8DB5C92738299F00A8F135 /* Utility */,
+				5C8DB5C42738210100A8F135 /* Controller */,
+				5C8DB5C3273820F100A8F135 /* View */,
+				5C8DB5B82738207900A8F135 /* Assets.xcassets */,
+				5C8DB5BD2738207900A8F135 /* Info.plist */,
+			);
+			path = "Technical Test venturas";
+			sourceTree = "<group>";
+		};
+		5C8DB5C3273820F100A8F135 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5BA2738207900A8F135 /* LaunchScreen.storyboard */,
+				5C8DB5B52738207300A8F135 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C8DB5C42738210100A8F135 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5C72738216500A8F135 /* CreateAccount.swift */,
+				5C8DB5CD2738375D00A8F135 /* LoginController.swift */,
+				5C8DB5CF27383BD700A8F135 /* MapWithAudioController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C8DB5C92738299F00A8F135 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5D127383C7000A8F135 /* LocationManager.swift */,
+				5C8DB5CB273829B900A8F135 /* UIButton+Extension.swift */,
+				5C2D18B3273B0FF800F6A8B9 /* GFunction.swift */,
+				1521E711273D52020005C8E5 /* UIView+Extension.swift */,
+				5C8DB5D32738608100A8F135 /* RecorderManager.swift */,
+				1521E716273D6ACE0005C8E5 /* LocalNotification.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5C8DB5CA273829A800A8F135 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DB5B12738207200A8F135 /* SceneDelegate.swift */,
+				5C8DB5AF2738207200A8F135 /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C8DB5AB2738207200A8F135 /* Technical Test venturas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8DB5C02738207900A8F135 /* Build configuration list for PBXNativeTarget "Technical Test venturas" */;
+			buildPhases = (
+				8ABD88539A5C15FEA4B532A8 /* [CP] Check Pods Manifest.lock */,
+				5C8DB5A82738207200A8F135 /* Sources */,
+				5C8DB5A92738207200A8F135 /* Frameworks */,
+				5C8DB5AA2738207200A8F135 /* Resources */,
+				3B6FF4BACEB409F24CB4093A /* [CP] Embed Pods Frameworks */,
+				5BE6BAFAC4D7EB52B8103B8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Technical Test venturas";
+			productName = "Technical Test Venturas";
+			productReference = 5C8DB5AC2738207200A8F135 /* Technical Test venturas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C8DB5A42738207200A8F135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5C8DB5AB2738207200A8F135 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5C8DB5A72738207200A8F135 /* Build configuration list for PBXProject "Technical Test venturas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C8DB5A32738207200A8F135;
+			productRefGroup = 5C8DB5AD2738207200A8F135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C8DB5AB2738207200A8F135 /* Technical Test venturas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C8DB5AA2738207200A8F135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8DB5BC2738207900A8F135 /* LaunchScreen.storyboard in Resources */,
+				5C8DB5B92738207900A8F135 /* Assets.xcassets in Resources */,
+				5C8DB5B72738207300A8F135 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B6FF4BACEB409F24CB4093A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE6BAFAC4D7EB52B8103B8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Technical Test Venturas/Pods-Technical Test Venturas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABD88539A5C15FEA4B532A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Technical Test Venturas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8DB5A82738207200A8F135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8DB5D42738608100A8F135 /* RecorderManager.swift in Sources */,
+				5C8DB5B02738207200A8F135 /* AppDelegate.swift in Sources */,
+				5C8DB5CC273829B900A8F135 /* UIButton+Extension.swift in Sources */,
+				5C2D18B4273B0FF800F6A8B9 /* GFunction.swift in Sources */,
+				5C8DB5C82738216500A8F135 /* CreateAccount.swift in Sources */,
+				5C8DB5D227383C7000A8F135 /* LocationManager.swift in Sources */,
+				5C8DB5B22738207200A8F135 /* SceneDelegate.swift in Sources */,
+				5C8DB5CE2738375D00A8F135 /* LoginController.swift in Sources */,
+				1521E712273D52020005C8E5 /* UIView+Extension.swift in Sources */,
+				1521E717273D6ACE0005C8E5 /* LocalNotification.swift in Sources */,
+				5C8DB5D027383BD700A8F135 /* MapWithAudioController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C8DB5B52738207300A8F135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8DB5B62738207300A8F135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C8DB5BA2738207900A8F135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8DB5BB2738207900A8F135 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C8DB5BE2738207900A8F135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C8DB5BF2738207900A8F135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C8DB5C12738207900A8F135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A8B0E457F75A4689BBDF94 /* Pods-Technical Test Venturas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GVY63XAWX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Technical Test venturas/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizul.Technical-Test-Venturas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C8DB5C22738207900A8F135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB4F78D30AE74366B75B68B /* Pods-Technical Test Venturas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GVY63XAWX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Technical Test venturas/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faizul.Technical-Test-Venturas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C8DB5A72738207200A8F135 /* Build configuration list for PBXProject "Technical Test venturas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8DB5BE2738207900A8F135 /* Debug */,
+				5C8DB5BF2738207900A8F135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8DB5C02738207900A8F135 /* Build configuration list for PBXNativeTarget "Technical Test venturas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8DB5C12738207900A8F135 /* Debug */,
+				5C8DB5C22738207900A8F135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C8DB5A42738207200A8F135 /* Project object */;
+}
